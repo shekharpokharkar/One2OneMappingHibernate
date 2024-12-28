@@ -14,6 +14,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
+     	System.out.println("Student+Passportgit");
 		SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
 		if (sessionFactory != null) {
 			session = sessionFactory.openSession();
